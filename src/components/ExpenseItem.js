@@ -1,20 +1,28 @@
-import React, { Component } from 'react'
-import "./ExpenseItem.css"
+import React, { Component } from "react";
+import "./ExpenseItem.css";
+import { MdEdit, MdDelete } from "react-icons/md";
+
 export class ExpenseItem extends Component {
   render() {
     return (
-      <li className='item'>
-        <div className='info'>
-            <span className='expnse'>학원등록</span>
-            <span className='amount'>1000원</span>
+      <li className="item">
+        <div className="info">
+          <span className="expnse">{this.props.expense.charge}</span>
+          <span className="amount">{this.props.expense.amount}</span>
         </div>
         <div>
-            <button className='edit-btn'>수정</button>
-            <button className='clear-btn'>삭제</button>
+          <button className="edit-btn">
+            수정
+            <MdEdit />
+          </button>
+          <button className="clear-btn">
+            삭제
+            <MdDelete />
+          </button>
         </div>
       </li>
-    )
+    );
   }
 }
 
-export default ExpenseItem
+export default ExpenseItem;
