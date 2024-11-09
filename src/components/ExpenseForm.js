@@ -4,6 +4,7 @@ import "./ExpenseForm.css";
 
 const ExpenseForm = ({
   handleCharge,
+  edit,
   charge,
   handleAmount,
   amount,
@@ -38,7 +39,7 @@ const ExpenseForm = ({
         </div>
       </div>
       <button type="submit" className="btn">
-        제출
+        {edit ? "수정" : "제출"}
         <MdSend className="btn-icon" />
       </button>
     </form>
