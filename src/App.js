@@ -22,7 +22,9 @@ const App = () => {
   const handleAmount = (e) => {
     setAmount(e.target.value);
   };
-
+  const handleClear = () => {
+    setExpenses([]);
+  }
   const handelDelete = (id) => {
     const newExpenses = expenses.filter((expense) => expense.id !== id);
     setExpenses(newExpenses);
@@ -94,6 +96,7 @@ const App = () => {
           initialExpenses={expenses}
           handleDelete={handelDelete}
           handleEdit={handleEdit}
+          handleClear={handleClear}
         />
       </div>
 
