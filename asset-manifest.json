@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kimsundae/react-tictactoe-app/static/css/main.bf90d9e0.css",
+    "main.js": "/kimsundae/react-tictactoe-app/static/js/main.2eb0cf31.js",
+    "static/js/453.ad0e490e.chunk.js": "/kimsundae/react-tictactoe-app/static/js/453.ad0e490e.chunk.js",
+    "index.html": "/kimsundae/react-tictactoe-app/index.html",
+    "main.bf90d9e0.css.map": "/kimsundae/react-tictactoe-app/static/css/main.bf90d9e0.css.map",
+    "main.2eb0cf31.js.map": "/kimsundae/react-tictactoe-app/static/js/main.2eb0cf31.js.map",
+    "453.ad0e490e.chunk.js.map": "/kimsundae/react-tictactoe-app/static/js/453.ad0e490e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf90d9e0.css",
+    "static/js/main.2eb0cf31.js"
+  ]
+}
